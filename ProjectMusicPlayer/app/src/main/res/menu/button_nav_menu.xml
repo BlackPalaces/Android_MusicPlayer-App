@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/PlayMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="@string/menuPlay"
+        android:background="@drawable/button_shadow"
+        android:icon="@drawable/baseline_play_circle_outline_24"/>
+    <item
+        android:id="@+id/BookMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="@string/menuSong"
+        android:background="@drawable/button_shadow"
+        android:icon="@drawable/baseline_library_music_24"/>
+    <item
+        android:id="@+id/ListMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="@string/menuList"
+        android:background="@drawable/button_shadow"
+        android:icon="@drawable/baseline_queue_music_24"/>
+</menu>

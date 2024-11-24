@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SongmenuFragment"
+    android:background="#171627">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="#171627"
+            android:outlineProvider="none"
+            app:cardBackgroundColor="#171627"
+            app:cardPreventCornerOverlap="false"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal">
+
+                <SearchView
+                    android:id="@+id/searchView"
+                    android:layout_width="250dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="0"
+                    android:background="@drawable/search_view"
+                    android:editTextColor="@android:color/white"
+                    android:iconifiedByDefault="false"
+                    android:queryHint="ใส่ชื่อเพลง"
+                    android:textColorHint="@android:color/white"
+                    android:translationX="10dp"
+                    android:translationY="10dp"
+                    app:queryBackground="@android:color/transparent"></SearchView>
+
+                <Button
+                    android:id="@+id/searchButton"
+                    android:layout_width="80dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="0"
+                    android:background="@drawable/search_button"
+                    android:text="@string/search"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    android:translationX="20dp"
+                    android:translationY="10dp" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+    </LinearLayout>
+
+
+</FrameLayout>

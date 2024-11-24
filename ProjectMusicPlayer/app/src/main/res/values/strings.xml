@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Music Player</string>
+    <string name="menuPlay">Play</string>
+    <string name="menuSong">Song</string>
+    <string name="menuList">PlayList</string>
+    <string name="search">ค้นหา</string>
+</resources>
